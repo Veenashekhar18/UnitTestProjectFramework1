@@ -67,6 +67,7 @@
     <Compile Include="Assembly.cs" />
     <Compile Include="Attri13\DynamicdataandDatasource.cs" />
     <Compile Include="Attri13\Expectedconditions.cs" />
+    <Compile Include="Attri13\Priorityexecution.cs" />
     <Compile Include="Attri13\Timeoutandowner.cs" />
     <Compile Include="Objectrepo\Baseclass.cs" />
     <Compile Include="Objectrepo\Loginpage.cs" />
