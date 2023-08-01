@@ -62,6 +62,8 @@
   <ItemGroup>
     <Compile Include="Annotations.cs" />
     <Compile Include="Assembly.cs" />
+    <Compile Include="Attributes\Expectedconditions.cs" />
+    <Compile Include="Attributes\Timeoutandowner.cs" />
     <Compile Include="Objectrepo\Baseclass.cs" />
     <Compile Include="Objectrepo\Loginpage.cs" />
     <Compile Include="Objectrepo\WebactionUtility.cs" />
