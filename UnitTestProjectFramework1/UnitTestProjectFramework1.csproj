@@ -65,9 +65,9 @@
   <ItemGroup>
     <Compile Include="Annotations.cs" />
     <Compile Include="Assembly.cs" />
-    <Compile Include="Attributes\DynamicdataandDatasource.cs" />
-    <Compile Include="Attributes\Expectedconditions.cs" />
-    <Compile Include="Attributes\Timeoutandowner.cs" />
+    <Compile Include="Attri13\DynamicdataandDatasource.cs" />
+    <Compile Include="Attri13\Expectedconditions.cs" />
+    <Compile Include="Attri13\Timeoutandowner.cs" />
     <Compile Include="Objectrepo\Baseclass.cs" />
     <Compile Include="Objectrepo\Loginpage.cs" />
     <Compile Include="Objectrepo\WebactionUtility.cs" />
@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Repository\C# data.xlsx" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
