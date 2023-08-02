@@ -20,6 +20,8 @@ namespace UnitTestProjectFramework1
             MessageBox.Show("this is class initialize");
         }
 
+        
+
         [TestInitialize]
         public void Testinitialize(TestContext context)
         {
@@ -31,6 +33,8 @@ namespace UnitTestProjectFramework1
         {
             MessageBox.Show("this is test cleanup");
         }
+
+
 
         [ClassCleanup]
         public static void Classcleanup()

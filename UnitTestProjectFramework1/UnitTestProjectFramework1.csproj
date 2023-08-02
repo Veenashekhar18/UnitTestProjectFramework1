@@ -68,20 +68,29 @@
     <Compile Include="Attri13\DynamicdataandDatasource.cs" />
     <Compile Include="Attri13\Expectedconditions.cs" />
     <Compile Include="Attri13\Priorityexecution.cs" />
+    <Compile Include="Attri13\priorityTestscripts\Priorty.cs" />
     <Compile Include="Attri13\Timeoutandowner.cs" />
+    <Compile Include="InlineDataDrivenTest.cs" />
     <Compile Include="Objectrepo\Baseclass.cs" />
     <Compile Include="Objectrepo\Loginpage.cs" />
     <Compile Include="Objectrepo\WebactionUtility.cs" />
     <Compile Include="Parallelexecution.cs" />
+    <Compile Include="Takescreenshot.cs" />
     <Compile Include="Testscripts\Logintoappn.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebDrivermethods.cs" />
+    <Compile Include="WebElementMethods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="Repository\C# data.xlsx" />
+    <None Include="Settings.runsettings" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Popups\" />
+    <Folder Include="screenshots\" />
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

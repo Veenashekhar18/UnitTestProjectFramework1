@@ -12,6 +12,12 @@ namespace UnitTestProjectFramework1.Objectrepo
     [TestClass]
     public class Baseclass
     {
+        [TestMethod]
+        public void Method()
+        {
+
+        }
+
         public IWebDriver driver;
         [TestInitialize]
         public void LoginToApp()
