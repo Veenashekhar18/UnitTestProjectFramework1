@@ -20,7 +20,7 @@ namespace UnitTestProjectFramework1
         {
             ITakesScreenshot i = (ITakesScreenshot)driver;
             Screenshot screenshot=i.GetScreenshot();
-            screenshot.SaveAsFile("D:\\VisualStudioRepos\\UnitTestProjectFramework1\\UnitTestProjectFramework1\\screenshots\\veena.png", ScreenshotImageFormat.Png);
+            screenshot.SaveAsFile("D:\\VisualStudioRepos\\UnitTestProjectFramework1\\UnitTestProjectFramework1\\Screenshot\\veena.png", ScreenshotImageFormat.Png);
         }
     }
 }

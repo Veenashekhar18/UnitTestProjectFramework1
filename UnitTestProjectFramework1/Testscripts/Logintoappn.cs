@@ -61,10 +61,10 @@ namespace UnitTestProjectFramework1.Testscripts
                 homePage.Logout();
                 Console.WriteLine("Logged out of the application");
 
-            }
+            }*/
         }
         
 
   }
-            }
+        
 }

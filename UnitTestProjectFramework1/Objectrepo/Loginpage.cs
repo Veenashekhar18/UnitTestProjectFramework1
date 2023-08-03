@@ -11,7 +11,7 @@ namespace UnitTestProjectFramework1.Objectrepo
     public class Loginpage
     {
         public string url = "http://localhost/login.do";
-        //using FindBy
+        //using FindsBy
         [FindsBy(How=How.Id,Using = "username")]
         public IWebElement usernametxt;
         [FindsBy(How=How.Name,Using="pwd")]
