@@ -27,6 +27,24 @@ namespace UnitTestProjectFramework1.ExtentReport
             extentTest.Pass("test passed");
             extentTest.Fail("test failed");
             extentTest.Skip("test skipped");
+            extentreport .AddSystemInfo("aim", "goal");
+            ExtentTest extenttest1=extentreport.CreateTest("Datta");
+            extenttest1.Warning("this is warning messege ");
+            extenttest1.Fail("test script failed");
+            extenttest1.Fatal("test script failed");
+            extenttest1.Pass("test script paseed");
+            extentreport.AddSystemInfo("aim", "goal");
+            ExtentTest extenttest2 = extentreport.CreateTest("Sushma");
+            extenttest1.Warning("this is warning messege ");
+            extenttest1.Fail("test script failed");
+            extenttest1.Fatal("test script failed");
+            extenttest1.Pass("test script passed");
+            extentreport.AddSystemInfo("aim", "goal");
+            ExtentTest extenttest3 = extentreport.CreateTest("Tejas");
+            extenttest1.Warning("this is warning messege ");
+            extenttest1.Fatal("test script failed");
+            extenttest1.Fail("test script failed");
+            extenttest1.Pass("test script passed");
             extentreport.Flush();
             extentHtmlReporter.Stop();
         } 

@@ -466,12 +466,15 @@
     <Compile Include="Attri13\priorityTestscripts\Priorty.cs" />
     <Compile Include="Attri13\Timeoutandowner.cs" />
     <Compile Include="ExtentReport\Extentreport.cs" />
+    <Compile Include="ExtentReport\ExtentReportgeneration.cs" />
     <Compile Include="ExtentReport\Generatereport.cs" />
+    <Compile Include="ExtentReport\Generatereport1.cs" />
     <Compile Include="Initialization.cs" />
     <Compile Include="InlineDataDrivenTest.cs" />
     <Compile Include="Objectrepo\Baseclass.cs" />
     <Compile Include="Objectrepo\Loginpage.cs" />
     <Compile Include="Objectrepo\WebactionUtility.cs" />
+    <Compile Include="ODBC\ODBCValidation.cs" />
     <Compile Include="Parallelexecution.cs" />
     <Compile Include="Takescreenshot.cs" />
     <Compile Include="Testscripts\Logintoappn.cs" />

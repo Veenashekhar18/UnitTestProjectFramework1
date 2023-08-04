@@ -26,11 +26,11 @@ namespace UnitTestProjectFramework1.ExtentReport
             extentreport.AddSystemInfo("Mysore", "palace");
             extentreport.AttachReporter(extentHtmlReporter);
             ExtentTest extenttest = extentreport.CreateTest("report");
-            extenttest.Log(Status.Info, "This will give information");
-            extenttest.Log(Status.Warning, "this is warning messege");
-            extenttest.Fail("testscript failed");
-            extenttest.Pass("testscript passed");
-            extenttest.Info("this provides information");
+           extenttest.Log(Status.Info, "This will give information");
+           extenttest.Log(Status.Warning, "this is warning messege");
+           extenttest.Fail("testscript failed");
+           extenttest.Pass("testscript passed");
+           extenttest.Info("this provides information");
             extentreport.Flush();
             extentHtmlReporter.Stop();
 
