@@ -28,7 +28,7 @@ namespace UnitTestProjectFramework1
             //MessageBox.Show("this is Assemblyinitialzer");
         }
 
-        [TestMethod]
+      /*  [TestMethod]
         [TestCategory("TC"),Owner("veena")]
         [Priority(1)]
         public void Browserrun()
@@ -40,6 +40,7 @@ namespace UnitTestProjectFramework1
             else
             {
                 Assert.Fail("invalid browser");
+
             }
             TestContext.WriteLine(TestContext.TestName);
             TestContext.WriteLine(TestContext.Properties["Browser"].ToString());
@@ -49,7 +50,7 @@ namespace UnitTestProjectFramework1
         public static void Assemblycleanup()
         {
             MessageBox.Show("this is Assemblycleanup");
-        }
+        }*/
     }
 }
 

@@ -11,14 +11,14 @@ namespace ConsoleApp1.Programs._03Aug2023
         public static void Count()
         {
             string s = "im im a a student";
-            string[] s1= s.Split(" ");
+            string[] s1= s.Split(' ');
             Dictionary<string,int> d = new Dictionary<string,int>();
             for(int i=0; i<s1.Length; i++)
             {
                 string str= s1[i];
                 if(d.ContainsKey(str))
                 {
-                    int value = d.GetValueOrDefault(str);
+                    int value = 1;
                     value++;
                     d.Add(str, value);
                 }

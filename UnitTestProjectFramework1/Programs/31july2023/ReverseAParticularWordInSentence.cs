@@ -11,7 +11,7 @@ namespace ConsoleApp1.Programs._31july2023
         public static void Reverse()
         {
             string s = "welcome to banglore";
-            string[] arr = s.Split(" ");
+            string[] arr = s.Split(' ');
             for (int i = arr.Length - 1; i >= 0; i--)
             {
                 if (i == 1)

@@ -23,8 +23,9 @@ namespace UnitTestProjectFramework1
         
 
         [TestInitialize]
-        public void Testinitialize(TestContext context)
+        public void Testinitialize()
         {
+            
             MessageBox.Show("this is test initialize");
         }
 

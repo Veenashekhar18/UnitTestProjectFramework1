@@ -460,6 +460,8 @@
   <ItemGroup>
     <Compile Include="Annotations.cs" />
     <Compile Include="Assembly.cs" />
+    <Compile Include="Attri13\DatafetchfromCSV.cs" />
+    <Compile Include="Attri13\DatafetchfromxlCsV.cs" />
     <Compile Include="Attri13\DynamicdataandDatasource.cs" />
     <Compile Include="Attri13\Expectedconditions.cs" />
     <Compile Include="Attri13\Priorityexecution.cs" />
@@ -552,7 +554,8 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-    <None Include="Repository\C# data.xlsx" />
+    <None Include="Repository\Data.xlsx" />
+    <None Include="Repository\GetdataCSV.csv" />
     <None Include="Settings.runsettings" />
   </ItemGroup>
   <ItemGroup>
